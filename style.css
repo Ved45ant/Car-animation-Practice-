@@ -37,7 +37,7 @@ body {
 
 .wheel {
     position: absolute;
-    animation: wheelAnimation 1s linear infinite;
+    animation: wheelAnimation 0.4s linear infinite;
 }
 
 .wheel1 {
