@@ -1,0 +1,73 @@
+body {
+    color: white;
+}
+
+.sky {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/pexels-pixabay-158827.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.road {
+    background-image: url('/ufpwu0a9.png');
+    background-repeat: repeat-x;
+    position: absolute;
+    bottom: 0px;
+    width: 1000vw;
+    height: 20vh;
+    animation: roadAnimation 0.2s linear infinite;
+}
+
+.car {
+    background-image: url('/car-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20rem;
+    height: 10rem;
+    position: absolute;
+    bottom: 75px;
+    left: 430px;
+
+}
+
+.wheel {
+    position: absolute;
+    animation: wheelAnimation 1s linear infinite;
+}
+
+.wheel1 {
+    background-image: url('/wheels-removebg-preview.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 62px;
+    height: 60px;
+    bottom: 88px;
+    left: 640px;
+}
+
+.wheel2 {
+    background-image: url('/wheels-removebg-preview.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 62px;
+    height: 60px;
+    bottom: 88px;
+    left: 480px;
+}
+
+
+@keyframes roadAnimation {
+    100% {
+        transform: translate(-500vw);
+    }
+}
+
+@keyframes wheelAnimation {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
