@@ -6,24 +6,25 @@ body {
     background-color: black;
     width: 100vw;
     height: 100vh;
-    background-image: url('pexels-pixabay-158827.jpg');
+    background-image: url('./pexels-pixabay-158827.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
 }
 
 .road {
-    background-image: url('ufpwu0a9.png');
+    background-image: url('./ufpwu0a9.png');
     background-repeat: repeat-x;
     position: absolute;
     bottom: 0px;
     width: 1000vw;
     height: 20vh;
-    animation: roadAnimation 0.2s linear infinite;
+    animation: roadAnimation 2s linear infinite;
+    right: 100px;
 }
 
 .car {
-    background-image: url('car-removebg-preview.png');
+    background-image: url('./car-removebg-preview.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 20rem;
@@ -40,7 +41,7 @@ body {
 }
 
 .wheel1 {
-    background-image: url('wheels-removebg-preview.png');
+    background-image: url('./wheels-removebg-preview.png');
     background-size: contain;
     background-repeat: no-repeat;
     width: 62px;
@@ -50,7 +51,7 @@ body {
 }
 
 .wheel2 {
-    background-image: url('wheels-removebg-preview.png');
+    background-image: url('./wheels-removebg-preview.png');
     background-size: contain;
     background-repeat: no-repeat;
     width: 62px;
@@ -62,7 +63,7 @@ body {
 
 @keyframes roadAnimation {
     100% {
-        transform: translate(-500vw);
+        transform: translate(500vh);
     }
 }
 
